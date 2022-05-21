@@ -9,11 +9,11 @@ type Obj struct {
 }
 
 //测试代码有没有走到这里
-func (this *Obj) Test0() {
-	fmt.Println("test0")
+func (this *Obj) Test0(str string) string {
+	//fmt.Println(str)
 	//log.Println("test0")
 	//go fmt.Println("test0")
-
+	return str + " is ok"
 }
 
 /*

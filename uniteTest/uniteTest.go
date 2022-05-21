@@ -2,12 +2,12 @@ package uniteTest
 
 import (
 	"bytes"
+	"runtime"
 	"strconv"
+	"strings"
 
 	"leeCode.learn/common"
 	"leeCode.learn/testLee"
-	"runtime"
-	"strings"
 )
 
 type Obj struct {
@@ -36,8 +36,8 @@ func (this *Obj) getFunName() string {
 }
 
 //入口测试
-func (this *Obj) Test0() {
-
+func (this *Obj) Test0() string {
+	return "test0"
 }
 
 func (this *Obj) Test1() ([]int, int) { //[]interface{}{
