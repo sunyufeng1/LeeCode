@@ -6,8 +6,8 @@ import (
 	"strconv"
 	"strings"
 
-	"leeCode.learn/common"
-	"leeCode.learn/testLee"
+	Common "github.com/sunyufeng1/LeeCode/common"
+	"github.com/sunyufeng1/LeeCode/testLee"
 )
 
 type Obj struct {

@@ -1,3 +1,3 @@
-module leeCode.learn
+module github.com/sunyufeng1/LeeCode
 
 go 1.16

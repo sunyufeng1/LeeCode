@@ -1,11 +1,11 @@
 package main
 
 import (
-	"leeCode.learn/uniteTest"
+	"github.com/sunyufeng1/LeeCode/uniteTest"
 )
 
 func main() {
 	testObj := new(uniteTest.Obj)
-	testObj.Test(1)
+	testObj.Test(0)
 
 }
