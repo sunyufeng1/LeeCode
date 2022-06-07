@@ -7,16 +7,16 @@ import (
 	"strings"
 
 	Common "github.com/sunyufeng1/LeeCode/common"
-	"github.com/sunyufeng1/LeeCode/testLee"
+	_ "github.com/sunyufeng1/LeeCode/testLee"
 )
 
 type Obj struct {
-	funObj *testLee.Obj
+	//funObj *testLee.Obj
 }
 
 func (this *Obj) Test(id int) {
-	this.funObj = new(testLee.Obj)
-	_ = this.funObj
+	//this.funObj = new(testLee.Obj)
+	//_ = this.funObj
 	var buf bytes.Buffer
 	buf.WriteString("Test")
 	buf.WriteString(strconv.Itoa(id))
