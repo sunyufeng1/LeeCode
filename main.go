@@ -1,11 +1,8 @@
 package main
 
-import (
-	"github.com/sunyufeng1/LeeCode/uniteTest"
-)
-
 func main() {
-	testObj := new(uniteTest.Obj)
-	testObj.Test(0)
+	//全部走单元测试不再走这里
+	//testObj := new(uniteTest.Obj)
+	//testObj.Test(0)
 
 }
